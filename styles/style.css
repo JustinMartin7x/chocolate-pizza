@@ -37,8 +37,43 @@ main {
 footer {
     border: 3px solid orange;
 }
+
 h1 {
 
     font-size: 3.5em;
     font-family: Brush Script MT, Brush Script Std, cursive;
+
+
+.article-title {
+    /* font-family: 'Anton', sans-serif; */
+    font-family: 'Francois One', sans-serif;
+    font-size: 2.65em;
+    letter-spacing: -.015em;
+    color: rgb(35, 35, 35);
+}
+
+
+.post-info {    
+    display: flex;
+    justify-content: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8725em;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: rgb(187, 187, 187);
+}
+
+.post-date {
+    flex: 2;
+font-family: 'Anaheim', sans-serif;
+}
+
+.printer-icon {
+    width: 13px;
+    height: 10px;
+    margin: 4px 3px 0px 0;
+}
+
+.printer-text {
+font-family: 'Anaheim', sans-serif;
 }
