@@ -1,12 +1,34 @@
 body {
     display: grid;
-    grid-template-rows: 170px auto 170px;
+    grid-template-rows: 100px auto 170px;
     gap: 20px;
 }
 
-header {
+.main-header {
+    display: grid;
+    grid-template-columns: 50% 50%;
     border: 3px solid rgb(69, 228, 228);
+    font-size: .75em;
+    font-weight: 100;
+    height: 100px;
 }
+.div1 {
+    display: flex;
+    justify-content: left;
+    margin-top: 1.45em;
+
+    
+}
+.logo {
+    height: 47px;
+    align-self: center;
+    margin-right: 1em;
+    line-height: .5px;
+}
+.div2 {
+    display: flex;
+}
+
 
 main {
     border: 3px solid rgb(51, 106, 255);
@@ -15,6 +37,12 @@ main {
 footer {
     border: 3px solid orange;
 }
+
+h1 {
+
+    font-size: 3.5em;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+
 
 .article-title {
     /* font-family: 'Anton', sans-serif; */
