@@ -9,7 +9,14 @@ header {
 }
 
 main {
-    border: 3px solid rgb(51, 106, 255);
+    /* border: 3px solid rgb(51, 106, 255); */
+}
+
+p {
+    font-size: 1.2em;
+    font-weight: lighter;
+    margin: 2em 0;
+    color: rgb(133, 133, 133);
 }
   
 footer {
@@ -24,7 +31,6 @@ footer {
     color: rgb(35, 35, 35);
 }
 
-
 .post-info {    
     display: flex;
     justify-content: flex-start;
@@ -37,7 +43,7 @@ footer {
 
 .post-date {
     flex: 2;
-font-family: 'Anaheim', sans-serif;
+    font-family: 'Anaheim', sans-serif;
 }
 
 .printer-icon {
@@ -47,5 +53,19 @@ font-family: 'Anaheim', sans-serif;
 }
 
 .printer-text {
-font-family: 'Anaheim', sans-serif;
+    font-family: 'Anaheim', sans-serif;
+}
+
+.ingredients-container { 
+    display: grid;
+    grid-template-columns: repeat(2, 35%);
+    justify-content: space-around;
+    background-image: url('../assets/list-bg.png');
+    background-repeat: no-repeat;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 1.25em;
+    line-height: 1.55em;
+    color: rgb(133, 133, 133);
+    padding: 39px;
+    height: 300px;
 }
